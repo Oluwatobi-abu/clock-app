@@ -3,7 +3,7 @@
 A simple and beautiful desktop clock application built with Python and CustomTkinter.
 
 
-
+-
 It includes:
 
 🕒 Digital & Analog Clock
@@ -17,7 +17,7 @@ It includes:
 🔊 Sound alerts using Pygame
 
 
-
+-
 🚀 Features
 
 Switch between Digital and Analog clock
@@ -33,7 +33,7 @@ Desktop-friendly UI
 Packaged as a Windows .exe
 
 
-
+-
 🛠️ Built With
 
 Python 3.11+
@@ -45,13 +45,13 @@ Pygame
 PyInstaller
 
 
-
+-
 ▶️ How to Run (Developer Mode)
 
 python -m clock_app
 
 
-
+-
 📦 Build EXE
 
 pyinstaller --onefile --windowed --name ClockApp \
@@ -60,7 +60,7 @@ pyinstaller --onefile --windowed --name ClockApp \
 clock_app/__main__.py
 
 
-
+-
 📁 Project Structure
 
 clock_app/
