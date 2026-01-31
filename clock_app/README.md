@@ -2,6 +2,8 @@
 
 A simple and beautiful desktop clock application built with Python and CustomTkinter.
 
+
+
 It includes:
 
 🕒 Digital & Analog Clock
@@ -13,6 +15,7 @@ It includes:
 🔔 Alarm with snooze (5 → 10 → 15 minutes)
 
 🔊 Sound alerts using Pygame
+
 
 
 🚀 Features
@@ -30,6 +33,7 @@ Desktop-friendly UI
 Packaged as a Windows .exe
 
 
+
 🛠️ Built With
 
 Python 3.11+
@@ -41,9 +45,11 @@ Pygame
 PyInstaller
 
 
+
 ▶️ How to Run (Developer Mode)
 
 python -m clock_app
+
 
 
 📦 Build EXE
@@ -52,6 +58,7 @@ pyinstaller --onefile --windowed --name ClockApp \
 --add-data "clock_app/alarm.wav;clock_app" \
 --add-data "clock_app/alarms.json;clock_app" \
 clock_app/__main__.py
+
 
 
 📁 Project Structure
@@ -65,9 +72,11 @@ clock_app/
  └── __main__.py
 
 
+
 ❤️ Author
 
 Built with love by Abubakar Oluwatobi
+
 
 
 📜 License
